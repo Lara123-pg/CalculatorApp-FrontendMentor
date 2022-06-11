@@ -1,0 +1,14 @@
+@mixin DisplayCalculator() {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-right: 1em;
+
+    width: 420px;
+    height: 100px;
+
+    border-radius: 5px;
+
+    font-size: 40px;
+}

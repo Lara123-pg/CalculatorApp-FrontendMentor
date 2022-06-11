@@ -1,0 +1,143 @@
+div.calculatorTheme1 {
+    @include GeneralContainer;
+
+    background-color: $mainBackground;
+    
+    div.calculator {
+        @include GeneralCalculator;
+
+        div.initial {
+            @include InitialPartCalculator;
+
+            p.name1 {
+                font-size: 1.1rem;
+
+                color: $keyBackground1;
+            }
+
+            div.switcher {
+                @include SwitcherCalculator;
+
+                div.name2 {
+                    font-size: 0.7rem;
+
+                    color: $keyBackground1;
+                }
+
+                div.themes {
+                    @include ThemesCalculator;
+
+                    p.numbers {
+                        font-size: 0.6rem;
+
+                        color: $keyBackground1;
+                    }
+
+                    label {
+                        @include LabelCalculator;
+        
+                        background-color: $toogleBackground;
+        
+                        input {
+                            @include InputCalculator;
+
+                            background-color: $toogleBackground;
+                        }
+
+                        input.theme1::-webkit-slider-thumb {
+                            background-color: $toogleSwitcherKeyBackground;
+
+                            &:hover {
+                                background-color: $toogleSwitcherBackgroundHover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        div.display {
+            @include DisplayCalculator;
+
+            color: $keyBackground1;
+
+            background-color: $screenBackground;
+        }
+
+        div.keyboard {
+            @include KeyboardCalculator;
+
+            background-color: $keypadBackground;
+
+            button {
+                @include GeneralButton;    
+            }
+
+            button.basicCalc {
+                background-color: $keyBackground1;
+
+                color: $keypadBackground;
+
+                border: 0;
+
+                box-shadow: 0 0.1em $keyShadow3;
+
+                &:hover {
+                    background-color: $keyBackground1Hover;
+                }
+            }
+
+            button.OtherButton {
+                background-color: $keyBackground2;
+
+                color: $keyBackground1;
+
+                font-size: 20px;
+
+                box-shadow: 0 0.2em $keyShadow1;
+
+                border: 0;
+
+                &:hover {
+                    background-color: $keyBackground2Hover;
+                }
+            }
+
+            button.reset {
+                width: 190px;
+
+                grid-column: 1/2;
+            }
+
+            button.equalButton {
+                background-color: $keyBackground3;
+
+                color: $keyBackground1;
+
+                width: 185px;
+
+                grid-column: 3/4;
+
+                font-size: 20px;
+
+                border: 0;
+
+                box-shadow: 0 0.2em $keyShadow2;
+
+                &:hover {
+                    background-color: $keyBackground3Hover;
+                }
+            }
+        }
+    }
+
+    div.attribution {
+        font-size: 15px;
+
+        a {
+            color: #fff;
+        }
+    }
+}
+
+@import 'responsive';

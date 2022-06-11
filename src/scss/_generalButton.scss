@@ -1,0 +1,11 @@
+@mixin GeneralButton() {
+    font-size: 32px;
+
+    border-radius: 10px;
+
+    font-weight: 700;
+
+    &:hover {
+        cursor: pointer;
+    }
+}

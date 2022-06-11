@@ -1,0 +1,103 @@
+@media (max-width: 425px) {
+    div.calculatorTheme1, div.calculatorTheme2, div.calculatorTheme3 {
+        div.calculator {
+            width: 400px;
+
+            div.initial {
+                width: 400px;
+            }
+    
+            div.display {
+                width: 400px;
+            }
+    
+            div.keyboard {
+                width: 400px;
+    
+                button.basicCalc {
+                    width: 70px;
+                }
+    
+                button.OtherButton {
+                    width: 70px;
+                }
+    
+                button.reset {
+                    width: 160px;
+                }
+    
+                button.equalButton {
+                    width: 170px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    div.calculatorTheme1, div.calculatorTheme2, div.calculatorTheme3 {
+        div.calculator {
+            width: 350px;
+
+            div.initial {
+                width: 350px;
+            }
+    
+            div.display {
+                width: 350px;
+            }
+    
+            div.keyboard {
+                width: 350px;
+
+                padding-left: 1em;
+    
+                button.basicCalc {
+                    width: 60px;
+                }
+    
+                button.OtherButton {
+                    width: 60px;
+                }
+    
+                button.reset {
+                    width: 150px;
+                }
+    
+                button.equalButton {
+                    width: 150px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    div.calculatorTheme1, div.calculatorTheme2, div.calculatorTheme3 {
+        div.calculator {
+            width: 350px;
+
+            div.initial {
+                width: 300px;
+            }
+    
+            div.display {
+                width: 300px;
+            }
+    
+            div.keyboard {
+                width: 300px;
+
+                padding-left: 1em;
+    
+                button.reset {
+                    width: 140px;
+                }
+    
+                button.equalButton {
+                    width: 135px;
+                }
+            }
+        }
+    }
+}

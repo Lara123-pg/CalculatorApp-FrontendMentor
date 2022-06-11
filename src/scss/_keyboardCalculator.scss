@@ -1,0 +1,15 @@
+@mixin KeyboardCalculator() {
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px;
+    grid-template-rows: 45px 45px 45px 45px 45px;
+
+    justify-content: space-around;
+    align-content: center;
+
+    row-gap: 10px;
+
+    width: 425px;
+    height: 300px;
+
+    border-radius: 5px;
+}
