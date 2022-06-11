@@ -19,8 +19,8 @@
 Clone o projeto em seu dispositivo e acesse a pasta do mesmo.
 
 ```
-$ git clone
-$ cd 
+$ git clone https://github.com/Lara123-pg/CalculatorApp-FrontendMentor.git
+$ cd CalculatorApp-FrontendMentor
 $ code .  (Abrir o Visual Studio Code)
 ```
 
