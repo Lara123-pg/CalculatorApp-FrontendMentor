@@ -32,6 +32,8 @@ Calculator App é um desafio da plataforma FrontendMentor, que tem o objetivo de
 
 # Link do projeto hospedado
 
+https://calculatorappfrontendmentor.surge.sh/
+
 # Autor
 
 Lara Fernanda
@@ -40,4 +42,4 @@ Email: lamorimalvescavalcante@gmail.com
 
 # Licença
 
-Este projeto está sob a licença MIT -
+Este projeto está sob a licença MIT - https://github.com/Lara123-pg/CalculatorApp-FrontendMentor/blob/main/LICENSE
